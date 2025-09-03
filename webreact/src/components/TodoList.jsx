@@ -12,14 +12,7 @@ const TodoList = () => {
         { id: 7, text: 'อา : เตรียมสอบ DBA', completed: false }
     ];
     
-        // ฟังก์ชันสลับสถานะ completed
-    const toggleTodo = (id) => {
-        setTodos(prevTodos =>
-            prevTodos.map(todo =>
-                todo.id === id ? { ...todo, completed: !todo.completed } : todo
-            )
-        );
-    };
+    
 
     // คำนวณสถิติ
     const completedCount = todos.filter(todo => todo.completed).length;
@@ -56,7 +49,7 @@ const TodoList = () => {
                 {todos.map(todo => (
                     <div 
                         key={todo.id}
-                        onClick={() => toggleTodo(todo.id)} //click
+                        //onClick={() => toggleTodo(todo.id)} //click
                         style={{
                             padding: '12px',
                             margin: '8px 0',
@@ -66,7 +59,7 @@ const TodoList = () => {
                             alignItems: 'center',
                             backgroundColor: todo.completed ? '#82896E' : '#AD6B4B',
                             transition: 'all 0.3s ease'
-                            //cursor: 'pointer' //can click
+                            
                         }}
                     >
                         <span style={{ marginRight: '12px', fontSize: '18px' }}>

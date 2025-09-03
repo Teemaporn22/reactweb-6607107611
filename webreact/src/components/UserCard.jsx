@@ -3,7 +3,7 @@ import React from 'react';
 // Component ย่อยๆ
 const Avatar = () => (
     <img 
-        src="https://static.wikia.nocookie.net/ppgfanon/images/2/2b/Buttercup_PPG_%281%29.png/revision/latest?cb=20240221024754" 
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdQedbnw8qs6jh6bro-dQQ9v67iNyDhDIenQ&s" 
         alt="User Avatar"
         style={{
             borderRadius: '60%',
@@ -24,6 +24,7 @@ const UserBio = () => (
     <p style={{ color: '#666', fontSize: '14px' }}>
         Silpakorn University 
         <p>IT major Year3</p>
+        <p>21 year old </p>
     </p>
 );
 
