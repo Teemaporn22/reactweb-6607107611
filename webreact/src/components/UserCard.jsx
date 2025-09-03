@@ -3,14 +3,14 @@ import React from 'react';
 // Component ย่อยๆ
 const Avatar = () => (
     <img 
-        //src="https://via.placeholder.com/50" 
-        //alt="User Avatar"
-        // style={{
-        //     borderRadius: '50%',
-        //     width: '50px',
-        //     height: '50px',
-        //     border: '2px solid #667eea'
-        // }}
+        src="https://static.wikia.nocookie.net/ppgfanon/images/2/2b/Buttercup_PPG_%281%29.png/revision/latest?cb=20240221024754" 
+        alt="User Avatar"
+        style={{
+            borderRadius: '60%',
+            width: '80',
+            height: '80',
+            border: '2px solid #ddd'
+        }}
     />
 );
 
